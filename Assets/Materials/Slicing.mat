@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7269115625768835367
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -7,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ghost
+  m_Name: Slicing
   m_Shader: {fileID: -6465566751694194690, guid: b2c9126c90a2e1545b6ec2195ca53f46,
     type: 3}
   m_ShaderKeywords: 
@@ -22,10 +35,6 @@ Material:
     m_TexEnvs:
     - Texture2D_727B71A8:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_C6D39EAA:
-        m_Texture: {fileID: 2800000, guid: 9a81f1a59f171804e84fce76584bdcb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -58,11 +67,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_E9311B86: 0
-    - Vector1_2549783D: 1.69
-    - Vector1_896F4DE: 1
-    - Vector1_AE14FAB: 3.14
-    - Vector1_B6699D74: 21.1
-    - Vector1_F8E5F013: 0.3
+    - Vector1_2549783D: 0.5
+    - Vector1_AE14FAB: 2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -85,24 +91,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_4E4DD49D: {r: 0, g: 1, b: 0.2277966, a: 0}
-    - Color_75D77457: {r: 0.2971698, g: 1, b: 0.8585691, a: 0}
-    - Color_87DEDE7A: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_C4AFA13D: {r: 0.1, g: 0.2, b: 0, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
---- !u!114 &5119668308774868750
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
